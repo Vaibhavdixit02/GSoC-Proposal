@@ -283,13 +283,14 @@
 
 \section{\texorpdfstring{\textbf{Synopsis}}{Synopsis}}\label{synopsis}
 
-The general trend to model complex dynamical systems is through the use
+Most of the scientific community deals with the basic problem of trying to mathematically model the reality around them, this often involves dynamic systems.
+The general trend to model these complex dynamical systems is through the use
 of Differential Equations. These differential equation models often have
 non-measurable parameters. The popular ``forward-problem'' of simulation
 consists of solving the differential equations for a given set of
 parameters, the ``inverse problem'' to simulation, known as parameter
 estimation, is the process of utilizing data to determine these model
-parameters and is yet to be covered to the same extent and thus it
+parameters. This area is yet to be covered to the same extent and thus it
 presents a good avenue for further research primarily because of its
 applications in systems biology, HIV-AIDS study, and drug dosage
 estimation.
@@ -300,8 +301,8 @@ parameters which cannot be measured directly will be determined in order
 to ensure the best fit of the model with the experimental results. The
 purpose of this project is to utilize the growing array of statistical,
 optimization, and machine learning tools in the Julia ecosystem to build
-library functions with primary focus on Bayesian Inference that make it
-easy for scientists to perform this parameter estimation with the most
+library functions with primary focus on Bayesian Inference. These will make it
+easier for scientists to perform this parameter estimation with the most
 high-powered and robust methodologies.
 
 Currently JuliaDiffEq has DiffEqParamEstim.jl for the Optimization
@@ -337,12 +338,12 @@ Project}}{The Project}}\label{the-project}
 \subsection{\texorpdfstring{\textbf{Background}}{Background}}\label{background}
 
 Julia already has among the best Differential Equations suites with a
-very active community and a great array of optimization and statistical
+very active community. It also has a great array of optimization and statistical
 packages, therefore most of the basic infrastructure required for the
 development of new parameter estimation methodologies, are already in
 place. The primary task would be to implement the mentioned methods
 using these tools in a generalised manner so that all the problem types
-can be covered and to refine the existing tools if required.
+can be covered.
 
     \subsection{\texorpdfstring{\textbf{Goals}}{Goals}}\label{goals}
 
